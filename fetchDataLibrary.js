@@ -1,5 +1,5 @@
 var fetchData = () => new Promise((resolve, reject) => {
-    console.log('fetchingData from imaginary database')
+    console.log('fetchingData from imaginary database');
     setTimeout(() => {
         try {
             // fetchingData from imaginary database
@@ -10,7 +10,7 @@ var fetchData = () => new Promise((resolve, reject) => {
         } catch (error) {
             reject(error);
         }
-    }, 5000);
+    }, 3000);
 });
 
 
